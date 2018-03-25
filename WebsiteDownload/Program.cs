@@ -17,7 +17,7 @@ namespace WebsiteDownload
         static HashSet<string> matches = new HashSet<string>();
         static void Main(string[] args)
         {
-            startingURL = new string[1] { @"http://www.tretton37.com" };
+            startingURL = new string[1] { @"<url>" };
 
             //output location
             var outputDirectory = @"F:\Testfiler\testDownload\";
