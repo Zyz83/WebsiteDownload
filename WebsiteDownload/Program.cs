@@ -20,7 +20,7 @@ namespace WebsiteDownload
             startingURL = new string[1] { @"<url>" };
 
             //output location
-            var outputDirectory = @"F:\Testfiler\testDownload\";
+            var outputDirectory = @"<Path>";
             
             int maxWorkers = 100, maxLinks = 0;
             
